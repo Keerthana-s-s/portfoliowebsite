@@ -17,4 +17,4 @@ It showcases my skills, projects, resume, and provides a way for others to conne
 - **JavaScript** – Dynamic interactivity  
 - **Fonts & Icons** – For better design appeal  
 
-## 📂 Folder Structure
+
