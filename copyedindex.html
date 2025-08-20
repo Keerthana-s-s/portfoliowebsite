@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Keerthana S S Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+
+
+
+<style>
+/* About Section */
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.about-mf .about-img img { margin-left: 10px; }
+
+/* Skills Progress */
+.skill-mf .progress { margin: .5rem 0 1.2rem 0; border-radius: 0; height: .7rem; }
+.skill-mf .progress .progress-bar { height: .7rem; background-color: #ffbd39; }
+
+/* Typing Animation */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+@keyframes typing { from { width: 0; } to { width: 100%; } }
+
+/* Project Zoom */
+.zoom-effect { overflow: hidden; transition: transform 0.3s ease-out; }
+.zoom-effect:hover { transform: scale(1.1); }
+</style>
+<style>
+.project-modal {
+  display: none; 
+  position: fixed;
+  z-index: 1000;
+  padding-top: 50px;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  background-color: #111;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 70%;
+  color: #fff;
+}
+
+.close {
+  color: #fff;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #f00;
+}
+
+.project-modal {
+  max-height: 90vh; /* Limits height to 90% of viewport */
+  overflow-y: auto; /* Enables scrolling */
+}
+
+</style>
+
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+  <div class="container">
+<a class="navbar-brand" href="index.html" 
+   style="font-family: 'Freestyle Script', 'Brush Script MT', cursive; font-size: 32px; font-weight: normal;">
+   Keerthana S S
+</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav">
+      <span class="oi oi-menu"></span> Menu
+    </button>
+    <div class="collapse navbar-collapse" id="ftco-nav">
+      <ul class="navbar-nav nav ml-auto">
+        <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+        <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+        <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+        <li class="nav-item"><a href="#experience-section" class="nav-link"><span>Experiences</span></a></li>
+        <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+        <li class="nav-item"><a href="#honors-section" class="nav-link"><span>Honors and Awards</span></a></li>
+        <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home-section" class="hero" style="background-color: #000; padding: 100px 0 0 0; text-align: center; ">
+  <div class="container">
+    <!-- Profile Image -->
+    <img src="images/main.jpeg" alt="Keerthana S S" style="width: 300px; height: 300px; border-radius: 20px; margin-bottom: 20px; object-fit: cover;">
+
+    <!-- Name -->
+    <h1 style="color: white; font-size: 36px; font-weight: bold; margin-bottom: 10px;">Keerthana S S</h1>
+
+    <!-- Role -->
+    <p style="color: white; font-size: 18px; font-weight: 600; letter-spacing: 1px;">
+      ASPIRING | AI/ML ENGINEER & WEB DEVELOPER
+    </p>
+
+    <hr style="border: 0; height: 1px; background: white; width: 60%; margin: 20px auto;">
+
+    <!-- Social Buttons -->
+    <div style="margin-top: 20px;">
+      <a href="https://www.linkedin.com/in/keerthana-s-s-b95825283/" target="_blank" style="display: inline-block; margin: 10px; text-decoration: none; padding: 10px 20px; border: 2px solid #0e76a8; border-radius: 30px; color: #0e76a8; font-weight: bold;">LinkedIn</a>
+      <a href="https://github.com/Keerthana-s-s" target="_blank" style="display: inline-block; margin: 10px; text-decoration: none; padding: 10px 20px; border: 2px solid #ffffff; border-radius: 30px; color: white; font-weight: bold;">GitHub</a>
+      <a href="mailto:sskeerthana23@gmail.com" style="display: inline-block; margin: 10px; text-decoration: none; padding: 10px 20px; border: 2px solid #25D366; border-radius: 30px; color: #25D366; font-weight: bold;">Email</a>
+      <a href="https://www.instagram.com/keerthanashivamurty/" target="_blank" style="display: inline-block; margin: 10px; text-decoration: none; padding: 10px 20px; border: 2px solid #E1306C; border-radius: 30px; color: #E1306C; font-weight: bold;">Instagram</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- About Section -->
+<section class="ftco-about img ftco-section ftco-no-pb" id="about-section" style="background-color:#000; color:#fff; padding: 80px 0 0 0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="mb-4" style="font-size: 36px; font-weight: bold;">ABOUT ME</h1>
+        <p style="font-size: 18px; line-height: 1.8;">
+          I'm an aspiring AI/ML Engineer with a passion for solving real-world problems using artificial intelligence. 
+          I recently <b>graduated with a B.E. in Artificial Intelligence & Machine Learning</b> from Adichunchanagiri Institute of Technology, achieving a CGPA of 9.3. 
+          I approach problem-solving with creativity, enthusiasm, and strong technical skills.
+        </p>
+
+        <h3 style="margin-top: 25px; font-weight: bold;">My Vision</h3>
+        <p style="font-size: 17px; line-height: 1.8;">
+          To become a skilled AI/ML Engineer and Web Developer, specializing in intelligent systems 
+          that make technology more responsive and human-centric.
+        </p>
+
+        <h3 style="margin-top: 20px; font-weight: bold;">Continuous Learning</h3>
+        <p style="font-size: 17px; line-height: 1.8;">
+          I believe every day is an opportunity to learn. From mastering new programming tools 
+          to exploring the latest advancements in AI/ML and web development frameworks, 
+          I stay committed to growth.
+        </p>
+
+        <h3 style="margin-top: 20px; font-weight: bold;">Versatility & Collaboration</h3>
+        <p style="font-size: 17px; line-height: 1.8;">
+          I value teamwork and collaboration while also thriving independently. 
+          My internships and projects have honed my ability to adapt to diverse teams and challenges.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Skill section-->
+<section id="skills-section" style="background-color: #000; color: #fff; padding: 80px 0 0 0;">
+  <div class="container">
+    <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 40px;">SKILLS</h1>
+    <div class="row">
+      
+      <!-- Left Column -->
+      <div class="col-md-6">
+        <div style="margin-bottom: 25px;">
+          <p style="font-weight: bold; margin-bottom: 5px;">Artificial Intelligence & Machine Learning</p>
+          <div style="background: #444; height: 2px; position: relative;">
+            <div style="background: #fff; height: 2px; width: 90%;"></div>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <p style="font-weight: bold; margin-bottom: 5px;">Data Science</p>
+          <div style="background: #444; height: 2px; position: relative;">
+            <div style="background: #fff; height: 2px; width: 85%;"></div>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <p style="font-weight: bold; margin-bottom: 5px;">Python</p>
+          <div style="background: #444; height: 2px; position: relative;">
+            <div style="background: #fff; height: 2px; width: 95%;"></div>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <p style="font-weight: bold; margin-bottom: 5px;">OpenCV & CNN</p>
+          <div style="background: #444; height: 2px; position: relative;">
+            <div style="background: #fff; height: 2px; width: 80%;"></div>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <p style="font-weight: bold; margin-bottom: 5px;">TensorFlow & Keras</p>
+          <div style="background: #444; height: 2px; position: relative;">
+            <div style="background: #fff; height: 2px; width: 85%;"></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Right Column -->
+      <div class="col-md-6">
+        <div style="margin-bottom: 25px;">
+          <p style="font-weight: bold; margin-bottom: 5px;">Web Development (HTML, CSS, JS)</p>
+          <div style="background: #444; height: 2px; position: relative;">
+            <div style="background: #fff; height: 2px; width: 90%;"></div>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <p style="font-weight: bold; margin-bottom: 5px;">Django</p>
+          <div style="background: #444; height: 2px; position: relative;">
+            <div style="background: #fff; height: 2px; width: 80%;"></div>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <p style="font-weight: bold; margin-bottom: 5px;">SQL / DBMS</p>
+          <div style="background: #444; height: 2px; position: relative;">
+            <div style="background: #fff; height: 2px; width: 88%;"></div>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <p style="font-weight: bold; margin-bottom: 5px;">C & Java</p>
+          <div style="background: #444; height: 2px; position: relative;">
+            <div style="background: #fff; height: 2px; width: 75%;"></div>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+          <p style="font-weight: bold; margin-bottom: 5px;">Version Control (Git/GitHub)</p>
+          <div style="background: #444; height: 2px; position: relative;">
+            <div style="background: #fff; height: 2px; width: 70%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Experience Section -->
+<section id="experience-section" style="background-color: #000; color: #fff; padding: 80px 0 0 0;">
+  <div class="container">
+    <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 40px;">EXPERIENCES</h1>
+
+    <!-- Experience Item -->
+    <div style="border-left: 2px solid #fff; padding-left: 20px; margin-bottom: 40px;">
+      <p style="color: #aaa; font-size: 14px;">January 2025 - Present</p>
+      <h3 style="font-weight: bold;">AI & Data Analytics Intern <br><span style="font-size: 18px; font-weight: normal;">Edunet Foundation</span></h3>
+      <p style="margin: 8px 0; font-size: 16px;">
+        Location: Remote <br>
+        <strong>Skills:</strong> CNN · Data Augmentation · TensorFlow · Git · Team Collaboration
+      </p>
+      <p style="font-size: 15px; line-height: 1.8;">
+        Developed a plant disease prediction model using CNN, applied preprocessing and augmentation techniques, 
+        and collaborated in a DevOps-driven environment to gain practical industry experience.
+      </p>
+    </div>
+
+    <!-- Experience Item -->
+    <div style="border-left: 2px solid #fff; padding-left: 20px; margin-bottom: 40px;">
+      <p style="color: #aaa; font-size: 14px;">November 2024 - December 2024</p>
+      <h3 style="font-weight: bold;">AI/ML Intern <br><span style="font-size: 18px; font-weight: normal;">Hindustan Aeronautics Limited (MCSRDC Division)</span></h3>
+      <p style="margin: 8px 0; font-size: 16px;">
+        Location: Bengaluru, India <br>
+        <strong>Skills:</strong> AI-driven Voice Processing · Real-time Speech Analytics · Data Preprocessing
+      </p>
+      <p style="font-size: 15px; line-height: 1.8;">
+        Built an AI-driven voice transcription model for aerospace applications, focusing on real-time speech processing 
+        and AI-based speech analysis for aviation data.
+      </p>
+    </div>
+
+    <!-- Experience Item -->
+    <div style="border-left: 2px solid #fff; padding-left: 20px;">
+      <p style="color: #aaa; font-size: 14px;">December 2023</p>
+      <h3 style="font-weight: bold;">Web Development Intern <br><span style="font-size: 18px; font-weight: normal;">MontiCut (AICTE)</span></h3>
+      <p style="margin: 8px 0; font-size: 16px;">
+        Location: Remote <br>
+        <strong>Skills:</strong> Full-Stack Web Development · HTML · CSS · JavaScript · Django
+      </p>
+      <p style="font-size: 15px; line-height: 1.8;">
+        Designed and developed an interactive web application using modern front-end and back-end frameworks 
+        for scalable and responsive solutions.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects-section" style="background-color: #000; color: #fff; padding: 80px 0 0 0;">
+  <div class="container">
+    <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 40px;">PROJECTS</h1>
+    <div class="row">
+
+      <!-- Project Card HRDisease -->
+      <div class="col-md-4" style="margin-bottom: 30px;">
+        <div onclick="openModal('modal1')" style="cursor: pointer;">
+          <img src="images/heartfront.gif" alt="Heart Disease Prediction" class="img-fluid" style="border-radius: 5px;">
+          <h4 style="margin-top: 15px;">Heart Disease Prediction using CNN</h4>
+          <p style="color: #aaa; font-size: 14px;">January 2024</p>
+          <p><a href="https://github.com/Keerthana-s-s/Heart-disease-prediction-by-retinal-eye.git" target="_blank" style="color: #0af;">🔗 View GitHub Repository</a></p>
+          <p style="font-size: 14px; line-height: 1.6;">
+            Python · TensorFlow · Keras · OpenCV · Convolutional Neural Networks (CNN)
+          </p>
+        </div>
+      </div>
+      <!-- Project Card Plant Disease -->
+        <div class="col-md-4" style="margin-bottom: 30px;">
+          <div onclick="openModal('modal2')" style="cursor: pointer;">
+            <img src="images/plantfront.png" alt="Plant Disease Prediction" class="img-fluid" style="border-radius: 5px;">
+            <h4 style="margin-top: 15px;">Plant Disease Detection using CNN</h4>
+            <p style="color: #aaa; font-size: 14px;">March 2024</p>
+            <p><a href="https://github.com/Keerthana-s-s/plant-disease-prediction-CNN.git" target="_blank" style="color: #0af;">🔗 View GitHub Repository</a></p>
+            <p style="font-size: 14px; line-height: 1.6;">Python · TensorFlow · Keras · CNN · Image Augmentation</p>
+          </div>
+        </div>
+      <!-- Project Arecano Web App -->
+        <div class="col-md-4" style="margin-bottom: 30px;">
+          <div onclick="openModal('modal3')" style="cursor: pointer;">
+            <img src="images/areca3.PNG" alt="Arecano E-commerce" class="img-fluid" style="border-radius: 5px;">
+            <h4 style="margin-top: 15px;">Arecano: E-commerce Website</h4>
+            <p style="color: #aaa; font-size: 14px;">August 2024</p>
+            <p><a href="https://github.com/Keerthana-s-s/Arecano-An-Ecommerce-Website-For-Areca-Products-Using-Django.git" target="_blank" style="color: #0af;">🔗 View GitHub Repository</a></p>
+            <p style="font-size: 14px; line-height: 1.6;">Django · HTML · CSS · JavaScript · SQL</p>
+          </div>
+        </div>
+      <!-- Project Card food -->
+        <div class="col-md-4" style="margin-bottom: 30px;">
+          <div onclick="openModal('modal4')" style="cursor: pointer;">
+            <img src="images/food1.png" alt="Food and Recipe System" class="img-fluid" style="border-radius: 5px;">
+            <h4 style="margin-top: 15px;">Food and Recipe System</h4>
+            <p style="color: #aaa; font-size: 14px;">December 2023</p>
+            <p><a href="#" style="color: #0af;">🔗 Code Available Locally</a></p>
+            <p style="font-size: 14px; line-height: 1.6;">HTML · CSS · JavaScript · SQL · Responsive Design</p>
+          </div>
+        </div>
+
+    </div>
+  </div>
+
+
+  
+</section>
+
+<!-- Modal for Project HRDisease -->
+<!-- Modal Template Example -->
+<div id="modal1" class="project-modal">
+  <div class="modal-content" style="display: flex; flex-wrap: wrap; gap: 20px; color: #fff;">
+    <span class="close" onclick="closeModal('modal1')" style="position: absolute; top: 10px; right: 20px; font-size: 28px; cursor: pointer;">&times;</span>
+    
+    <!-- Left: Text Section -->
+    <div style="flex: 1 1 50%; min-width: 300px;">
+      <h2 style="margin-bottom: 10px;">Heart Disease Prediction using CNN</h2>
+      <p style="color: #aaa;">January 2024</p>
+      <p><a href="https://github.com/Keerthana-s-s/Heart-disease-prediction-by-retinal-eye.git" target="_blank" style="color: #0af;">🔗 View GitHub Repository</a></p>
+      <p style="margin: 15px 0; font-style: italic; color: #0af;">Python · TensorFlow · Keras · OpenCV · CNN</p>
+      <p style="line-height: 1.8;">
+        This project focuses on leveraging **Convolutional Neural Networks (CNN)** to predict heart disease from retinal images. 
+        It involves image preprocessing techniques such as resizing, normalization, and feature extraction to improve classification accuracy.
+        The model is trained on medical image datasets using TensorFlow and Keras, achieving high precision in early detection.
+      </p>
+      <p style="line-height: 1.8;">
+        By applying AI in healthcare, this project demonstrates the power of deep learning in diagnostics and provides a pathway for 
+        developing automated medical screening tools to assist doctors in clinical decision-making.
+      </p>
+    </div>
+    
+    <!-- Right: Images Section -->
+    <div style="flex: 1 1 40%; min-width: 280px; display: flex; flex-direction: column; gap: 15px;">
+      <img src="images/heart1.PNG" alt="Heart Disease Screenshot 1" style="width: 100%; border-radius: 5px; height: 300px; object-fit: cover;">
+      <img src="images/heart2.PNG" alt="Heart Disease Screenshot 2" style="width: 100%; border-radius: 5px; height: 300px; object-fit: cover;">
+    </div>
+  </div>
+</div>
+<!-- Modal for Project Plant Disease -->
+ <!-- Modal -->
+<div id="modal2" class="project-modal">
+  <div class="modal-content" style="display: flex; flex-wrap: wrap; gap: 20px; color: #fff;">
+    <span class="close" onclick="closeModal('modal2')" style="position: absolute; top: 10px; right: 20px; font-size: 28px; cursor: pointer;">&times;</span>
+    
+    <!-- Left: Text -->
+    <div style="flex: 1 1 50%; min-width: 300px;">
+      <h2>Plant Disease Detection using CNN</h2>
+      <p style="color: #aaa;">March 2024</p>
+      <p><a href="https://github.com/Keerthana-s-s/plant-disease-prediction-CNN.git" target="_blank" style="color: #0af;">🔗 View GitHub Repository</a></p>
+      <p style="margin: 15px 0; font-style: italic; color: #0af;">Python · TensorFlow · Keras · CNN · Image Augmentation</p>
+      <p style="line-height: 1.8;">
+        This project implements a **CNN model to classify plant diseases** from leaf images. It utilizes image augmentation and 
+        preprocessing techniques to improve robustness and accuracy on multi-class datasets.
+      </p>
+      <p style="line-height: 1.8;">
+        The model helps in **smart agriculture**, enabling farmers to identify plant diseases early and reduce crop loss. The system 
+        demonstrates how AI can transform precision farming and sustainability.
+      </p>
+    </div>
+    
+    <!-- Right: Images -->
+    <div style="flex: 1 1 40%; min-width: 280px; display: flex; flex-direction: column; gap: 15px;">
+      <img src="images/plant1.png" alt="Plant Disease Screenshot 1" style="width: 100%; border-radius: 5px; height: 300px; object-fit: cover;">
+      <img src="images/plant2.png" alt="Plant Disease Screenshot 2" style="width: 100%; border-radius: 5px; height: 300px; object-fit: cover;">
+    </div>
+  </div>
+</div>
+
+<!-- Modal  arecano-->
+<div id="modal3" class="project-modal">
+  <div class="modal-content" style="display: flex; flex-wrap: wrap; gap: 20px; color: #fff;">
+    <span class="close" onclick="closeModal('modal3')" style="position: absolute; top: 10px; right: 20px; font-size: 28px; cursor: pointer;">&times;</span>
+    
+    <!-- Left: Text -->
+    <div style="flex: 1 1 50%; min-width: 300px;">
+      <h2>Arecano: E-commerce Website</h2>
+      <p style="color: #aaa;">August 2024</p>
+      <p><a href="https://github.com/Keerthana-s-s/Arecano-An-Ecommerce-Website-For-Areca-Products-Using-Django.git" target="_blank" style="color: #0af;">🔗 View GitHub Repository</a></p>
+      <p style="margin: 15px 0; font-style: italic; color: #0af;">Django · HTML · CSS · JavaScript · SQL</p>
+      <p style="line-height: 1.8;">
+        This project is a **full-stack e-commerce platform built with Django**, designed for selling areca-based products. It includes 
+        features such as secure authentication, product catalog management, shopping cart, and order tracking.
+      </p>
+      <p style="line-height: 1.8;">
+        A responsive design ensures a seamless experience across devices. The backend is powered by Django ORM for database 
+        operations, while JavaScript improves interactivity.
+      </p>
+    </div>
+    
+    <!-- Right: Images -->
+    <div style="flex: 1 1 40%; min-width: 280px; display: flex; flex-direction: column; gap: 15px;">
+      <img src="images/areca2.PNG" alt="Arecano Screenshot 1" style="width: 100%; border-radius: 5px; height: 300px; object-fit: cover;">
+      <img src="images/areca1.PNG" alt="Arecano Screenshot 2" style="width: 100%; border-radius: 5px; height: 300px; object-fit: cover;">
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal for food and recipe -->
+<div id="modal4" class="project-modal" style="max-height:90vh; overflow-y:auto; ">
+  <div class="modal-content" style="display: flex; flex-wrap: wrap; gap: 20px; color: #fff;">
+    <span class="close" onclick="closeModal('modal4')" style="position: absolute; top: 10px; right: 20px; font-size: 28px; cursor: pointer;">&times;</span>
+    
+    <!-- Left: Text -->
+    <div style="flex: 1 1 50%; min-width: 300px;">
+      <h2>Food and Recipe System</h2>
+      <p style="color: #aaa;">December 2023</p>
+      <p><a href="#" style="color: #0af;">🔗 Code Available Locally</a></p>
+      <p style="margin: 15px 0; font-style: italic; color: #0af;">HTML · CSS · JavaScript · SQL · Responsive Design</p>
+      <p style="line-height: 1.8;">
+        This project is a **recipe and food catalog website** that showcases different recipe categories including Veg, Non-Veg, Snacks, and Desserts. 
+        It features a **blog section** for upcoming recipes and supports category-based navigation.
+      </p>
+      <p style="line-height: 1.8;">
+        The frontend is built with HTML, CSS, and JavaScript, providing a responsive UI, while the backend utilizes SQL for efficient 
+        recipe storage and management.
+      </p>
+    </div>
+    
+    <!-- Right: Images -->
+    <div style="flex: 1 1 40%; min-width: 280px; display: flex; flex-direction: column; gap: 15px;">
+      <img src="images/food1.png" alt="Recipe Screenshot 1" style="width: 100%; border-radius: 5px; height: 300px; object-fit: cover;">
+      <img src="images/food2.png" alt="Recipe Screenshot 2" style="width: 100%; border-radius: 5px; height: 300px; object-fit: cover;">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!--Honors and Awards-->
+<section id="honors-section" style="background-color: #000; color: #fff; padding: 60px 0;">
+  <div class="container">
+    <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 40px;">HONORS & AWARDS</h1>
+
+    <!-- Award 1 -->
+    <div class="row align-items-center mb-5">
+      <!-- Image -->
+      <div class="col-md-4">
+        <img src="images/merit1.jpg" alt="Hack Overflow Certificate" class="img-fluid" style="border-radius: 5px;">
+      </div>
+      <!-- Text -->
+      <div class="col-md-8">
+        <h4 style="font-weight: bold;">KEY ACHIEVEMENTS</h4>
+        <p style="color: #aaa; font-size: 14px;">Adichunchanagiri Institute of Technology · B.E. (AI & ML)</p>
+        <p style="font-size: 16px; line-height: 1.8;">
+          • Secured <strong>1st and 2nd rank</strong> in multiple semester exams during B.E. (AI & ML).<br>
+          • Consistently recognized for academic excellence with a <strong>CGPA of 9.3</strong>.
+        </p>
+      </div>
+    </div>
+    <hr style="border: 1px solid #333; margin: 20px 0;">
+
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- Contact Section -->
+<section id="contact-section" style="background-color: #000; color: #fff; padding: 80px 0 0 0;">
+  <div class="container">
+    <h1 style="font-size: 30px; font-weight: bold; margin-bottom: 10px;">CONTACT</h1>
+    <div class="row">
+
+      <!-- Column 1: Stay in Touch -->
+      <div class="col-md-4">
+        <h4 style=" font-size: 18px; font-weight: bold; margin-bottom: 0px;">STAY IN TOUCH</h4>
+        <p style="margin-bottom: 0px;">📧 <a href="mailto:sskeerthana23@gmail.com" style="color:#fff; text-decoration:none;">E-mail</a></p>
+        <p style="margin-bottom: 0px;">📞 <a href="tel:+918073808507" style="color:#fff; text-decoration:none;">Phone Number</a></p>
+        <p style="margin-bottom: 0px;">💬 <a href="https://wa.me/918073808507" target="_blank" style="color:#fff; text-decoration:none;">WhatsApp</a></p>
+      </div>
+
+      <!-- Column 2: Social Links -->
+      <div class="col-md-4" >
+        <h4 style="font-size: 18px; font-weight: bold; margin-bottom: 0px;">SOCIAL</h4>
+        <p style="margin-bottom: 0px;">🔗 <a href="https://www.linkedin.com/in/keerthana-s-s-b95825283/" target="_blank" style="color:#fff; text-decoration:none;">LinkedIn</a></p>
+        <p style="margin-bottom: 0px;">💻 <a href="https://github.com/Keerthana-s-s" target="_blank" style="color:#fff; text-decoration:none;">GitHub</a></p>
+        <p style="margin-bottom: 0px;">📸 <a href="https://www.instagram.com/keerthanashivamurty/" target="_blank" style="color:#fff; text-decoration:none;">Instagram</a></p>
+        <p style="margin-bottom: 0px;">👻 <a href="#" target="_blank" style="color:#fff; text-decoration:none;">Snapchat</a></p>
+      </div>
+
+      <!-- Column 3: Address -->
+      <div class="col-md-4">
+        <h4 style="font-size: 18px; font-weight: bold; margin-bottom: 0px;">ADDRESS</h4>
+        <p style="margin-bottom: 0px;">📍 Subramanya Nagara, Behind Police Station, Main Road</p>
+        <p style="margin-bottom: 0px;">Sakharayapattana, Chikkamagaluru(D)</p>
+        <p style="margin-bottom: 0px;">Karnataka, India</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<footer class="ftco-footer text-center" style=" padding: 80px 0 0 0;">
+  <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> Keerthana S S</p>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+function openModal(id) {
+  document.getElementById(id).style.display = "block";
+}
+function closeModal(id) {
+  document.getElementById(id).style.display = "none";
+}
+</script>
+
+</body>
+</html>
